@@ -1,0 +1,56 @@
+header {
+text-align: center
+}
+a {
+  color: rgb(224, 123, 123);
+  padding: 10px;
+  font: italic 2rem sans-serif;
+}
+
+/* Estilos para el background */
+body {
+  background-color: #f2eded;
+}
+
+/* Estilos para el área de texto */
+textarea[name="user-input"] {
+
+  letter-spacing: 1px;
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  margin: 10px;
+}
+
+/* Estilos para el botón */
+.palabras {
+  list-style-type: circle;
+  background-color: #1676b2;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 15px;
+  margin: 25px;
+  font-weight: 600;
+}
+
+#reset-button {
+  background-color: #6e07ad;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

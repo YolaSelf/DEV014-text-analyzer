@@ -3,12 +3,34 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Analizador de texto</title>
+  <title>Analizador de texto - Yorlenis</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <h1>Soy el analizador de Yorlenis</h1>
+  <header>
+    <h1> Analizador de Texto </h1>
+  </header>
+
+  <textarea name="user-input" row="20" cols="70" placeholder="Escribe aquí tu texto :)"></textarea>
+  <ul>
+
+    <li class="palabras" data-testid="word-count">Palabras:</li>
+    <li class="palabras" data-testid="character-count">Caracteres:</li>
+    <li class="palabras" data-testid="character-no-spaces-count">Caracteres Sin Espacios/Signos:</li>
+    <li class="palabras" data-testid="number-count">Números:</li>
+    <li class="palabras" data-testid="number-sum">Suma de Números:</li>
+    <li class="palabras" data-testid="word-length-average">Longitud media de Palabras:</li>
+
+  </ul>
+
+  <button id="reset-button"> Borrar Texto </button>
+
+  <footer>
+    <p> Autor: <strong>Yorlenis Guerra</strong></p>
+  </footer>
+
   <script src="index.js" type="module"></script>
 </body>
+
 </html>
